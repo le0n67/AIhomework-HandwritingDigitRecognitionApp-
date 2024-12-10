@@ -27,20 +27,24 @@ python handwriting_recognition.py
 ```
 
 **说明：**
+
 - 首次运行时，程序会训练一个简单的神经网络模型并保存到`mnist_net.pth`文件中。
-- 之后的运行会加载预训练的模型，直接进入手写数字识别界面。
+  <img src="https://xintakeout.oss-cn-beijing.aliyuncs.com/blog/202412101059377.png" alt="image-20241210105915328" style="zoom:50%;" />
+- 之后的运行会加载预训练的模型，直接进入手写数字识别界面。<img src="https://xintakeout.oss-cn-beijing.aliyuncs.com/blog/202412101059788.png" alt="image-20241210105933763" style="zoom:80%;" />
 
 ### 使用界面
 
 1. **启动应用**
+   
    ```shell
    python handwriting_recognition.py
    ```
-
+   
 2. **操作步骤**
    - 在画板上使用鼠标绘制数字。
    - 点击“识别”按钮，程序将预测所绘制的数字并在控制台打印结果。
    - 点击“清除”按钮，清空画板以便重新绘制。
+     <img src="https://xintakeout.oss-cn-beijing.aliyuncs.com/blog/202412101100894.png" alt="image-20241210110035860" style="zoom:67%;" />
 
 ## 3. 代码来源
 

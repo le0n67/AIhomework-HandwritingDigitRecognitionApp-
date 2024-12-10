@@ -68,7 +68,7 @@ def train_and_save_model():
             loss = torch.nn.functional.nll_loss(output, y)
             loss.backward()
             optimizer.step()
-        
+         
         # 每个epoch后打印准确率
         accuracy = evaluate(test_data, net)
         print(f"Epoch {epoch+1}, 准确率: {accuracy:.4f}")
